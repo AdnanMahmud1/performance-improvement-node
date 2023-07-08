@@ -11,6 +11,8 @@
     pm2 start server.js -l logs.txt -i 4
 6. final:
     pm2 start server.js -i 2
+7. reload all instances (zerotime reload)
+    pm2 reload server
 
     2 = instances
     max = take full advantage of all cpu cores
