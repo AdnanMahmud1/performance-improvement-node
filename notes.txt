@@ -1,0 +1,16 @@
+1. start
+    pm2 start server.js
+2. Show liste
+    pm2 list/status
+3. Stop server
+    pm2 stop server or id like 0, 1
+4. Delete Server
+    pm2 delete server
+5. log
+    pm2 logs
+    pm2 start server.js -l logs.txt -i 4
+6. final:
+    pm2 start server.js -i 2
+
+    2 = instances
+    max = take full advantage of all cpu cores
